@@ -9,7 +9,6 @@ public interface Penguin extends Bird, Delegatable<Bird> {
     return COMPONENT_KEY;
   }
 
-  // String getTheAnswerToDoYouLikeSwimming();
-  String getTheAnswerToDoYouLikeSwimming(String dummy);
+  String getTheAnswerToDoYouLikeSwimming();
 
 }

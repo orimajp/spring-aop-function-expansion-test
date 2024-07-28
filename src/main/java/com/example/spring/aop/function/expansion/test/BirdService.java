@@ -16,7 +16,7 @@ public class BirdService {
   }
 
   public String getTheAnswerToAreYouBird(String name) {
-    return getBird(name).getTheAnswerToAreYouBird();
+    return getBird(name).getTheAnswerToAreYouBird("test comment");
   }
 
   public String getTheAnswerToDoYouLikeToFly(String name) {
@@ -24,8 +24,7 @@ public class BirdService {
   }
 
   public String getTheAnswerToDoYouLikeSwimming(String name) {
-    // return ((Penguin)getBird(name)).getTheAnswerToDoYouLikeSwimming();
-    return ((Penguin) getBird(name)).getTheAnswerToDoYouLikeSwimming("test comment");
+    return ((Penguin)getBird(name)).getTheAnswerToDoYouLikeSwimming();
   }
 
 }

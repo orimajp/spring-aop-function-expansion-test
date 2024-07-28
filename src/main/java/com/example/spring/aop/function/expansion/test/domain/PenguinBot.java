@@ -14,14 +14,13 @@ public class PenguinBot implements Penguin {
 
   @Override
   @ExtendedMethod
-  // public String getTheAnswerToDoYouLikeSwimming() {
-  public String getTheAnswerToDoYouLikeSwimming(String comment) {
-    log.info("PenguinBot getTheAnswerToDoYouLikeSwimming comment={}", comment);
+  public String getTheAnswerToDoYouLikeSwimming() {
     return "Oh, I love swimming. (by PenguinBot)";
   }
 
   @Override
-  public String getTheAnswerToAreYouBird() {
+  // public String getTheAnswerToAreYouBird() {
+  public String getTheAnswerToAreYouBird(String comment) {
     return "";
   }
 
