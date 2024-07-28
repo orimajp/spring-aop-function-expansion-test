@@ -2,10 +2,8 @@ package com.example.spring.aop.function.expansion.test.domain;
 
 import com.example.spring.aop.function.expansion.test.system.ExtendedMethod;
 import lombok.RequiredArgsConstructor;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 
-@Slf4j
 @Component
 @RequiredArgsConstructor
 public class PenguinBot implements Penguin {
@@ -19,8 +17,7 @@ public class PenguinBot implements Penguin {
   }
 
   @Override
-  // public String getTheAnswerToAreYouBird() {
-  public String getTheAnswerToAreYouBird(String comment) {
+  public String getTheAnswerToAreYouBird() {
     return "";
   }
 

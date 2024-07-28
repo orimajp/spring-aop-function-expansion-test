@@ -16,7 +16,7 @@ public class BirdService {
   }
 
   public String getTheAnswerToAreYouBird(String name) {
-    return getBird(name).getTheAnswerToAreYouBird("test comment");
+    return getBird(name).getTheAnswerToAreYouBird();
   }
 
   public String getTheAnswerToDoYouLikeToFly(String name) {
